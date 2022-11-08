@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/*---- CHANGE CSS ----*/
+@media all and (-ms-high-contrast: none) {
+  body {
+    font-family: Quicksand, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", '游ゴシック体', 'Yu Gothic', YuGothic, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  }
+}
+
+/*---- CHANGE CSS ----*/
+@media all and (-ms-high-contrast: none), {
+  body {
+    font-family: Quicksand, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", '游ゴシック体', 'Yu Gothic', YuGothic, "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  }
+}
+
+/*---- CHANGE CSS ----*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  body {
+    font-family: Quicksand, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "游ゴシック体", "YuGothic", "游ゴシック Medium", "Yu Gothic Medium", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  }
+}
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop, .nav-pills .nav-item .nav-link {
+    padding: 0.7rem 1rem 0.5rem 1rem;
+  }
+  *::-ms-backdrop, .btn.btn-xs {
+    padding: 0.575rem 0.75rem 0.175rem 10.75rem;
+  }
+  *::-ms-backdrop, ul.list-information span.badge {
+    padding-top: 8px!important;
+    padding-bottom: 6px!important;
+  }
+  *::-ms-backdrop, i.icon-new {
+    padding: 3px 2px 1px 2px!important;
+  }
+  *::-ms-backdrop, .list-report .badge {
+    padding-top: 3px!important;
+    padding-bottom: 1px!important;
+  }
+  *::-ms-backdrop, .list-article .badge {
+    padding-top: 9px!important;
+    padding-bottom: 5px!important;
+  }
+  *::-ms-backdrop, .figure {
+    display: block!important;
+  }
+}
+
+
+.col-lg-6.mapIng {
+	margin: 0 auto;
+}
+.mapBox .add {
+	display: block;
+	text-align: center;
+}
+
+
+/*------ 20200805 add -------------*/
+header div.container section.sub-nav nav ul li.attention-report {
+	margin-left: 0;
+	margin-right: 0;
+}
+@media (max-width: 1199.98px){
+	header div.container section.sub-nav nav ul li.attention-report {
+		margin-left:0;
+		margin-right:15px;
+	}
+}
+header div.container section.sub-nav nav ul li.attention a {
+	font-size: 1.1rem;
+	/*line-height: 1.3;*/
+	text-align: center;
+	width: 120px;
+}
+header div.container section.sub-nav nav ul li.attention a span{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 2.6em;
+}
+header div.container section.sub-nav nav ul li.attention-movie {
+	margin-left: 15px;
+	margin-right: 1px;
+}
+header div.container section.sub-nav nav ul li.attention a i {
+	margin: 7px auto 9px;
+}	
+i.icon-movie {
+		width: 40px;
+		height: 24px;
+		background: center center url(/assets/images/common/icon-movie.png) no-repeat;
+		background-size: contain;
+}	
+	@media (max-width: 1199.98px){
+		i.icon-movie {
+			width: 30px;
+			height: 18px;
+		}
+		i.icon-book {
+			width: 30px;
+			height: 18px;
+		}
+		header div.container section.sub-nav nav ul li.attention a {
+			padding: 0.7rem !important;
+		}		
+	}
+
+
+/*------ 20220610 add -------------*/
+body > div.index section.main-image .slick div.article .button a i.icon-info{
+	top: 5px;
+}
+
+i.icon-info{
+	width: 27px;
+	height: 27px;
+	background: center center url("../images/common/icon-hand.svg") no-repeat;
+	background-size: contain;
+}
+
+.line-height-sm{
+	line-height: 140%;
+}
+
+.h1 .font-size-base{
+	font-size: 1.8rem;
+}
+
+
+@media (max-width: 1199.98px){
+	.reservationBox.modify-medical{
+		width: 100%;
+	}
+}
+
+.reservationBox.modify-medical .title{
+	font-size: 2.2rem;
+}
+
+@media (max-width: 768px){
+	.reservationBox.modify-medical .title{
+		font-size: 1.8rem;
+		text-align: left;
+	}
+	.reservationBox.modify-medical br{
+		display: none;
+	}
+}
+
+
+.reservationBox.modify-medical .reservationBox_inner{
+	border: 0px;
+	padding: 0px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+
+
+@media (max-width: 1199.98px){
+	.reservationBox.modify-medical .reservationBox_inner{
+		display: wrap;
+		flex-direction: column;
+	}
+}
+
+.reservationBox.modify-medical .reservationBox_inner .item{
+	display: block;
+	background: #fff;
+	color: #12428f;
+	width: calc(33.3333% - 15px);
+	padding: 15px;
+}
+@media (max-width: 1199.98px){
+	.reservationBox.modify-medical .reservationBox_inner .item{
+		margin-bottom: 5px;
+		width: 100%;
+	}
+}
+
+.reservationBox.modify-medical .reservationBox_inner .item .txt02{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+@media (max-width: 768px){
+	.reservationBox.modify-medical .text{
+		text-align: left;
+	}
+}
+
+.reservationBox.modify-medical .btn.btn-primary{
+	border: 1px solid #fff;
+}
+
+.tile-wrap .box p{
+	min-height: 5em;
+}
+
+body > div.facility .content01 .facility-image img{
+	width: 580px;
+}
+
+
+body > div.facility .facility-block{
+	width: 70%;
+	margin: 0 auto;
+}
+
+@media (max-width: 1199.98px){
+	body > div.facility .facility-block{
+		width: 100%;
+	}
+}
+
+body > div.facility .facility-block svg{
+	max-width: 100%;
+	height: auto;
+}
+
+.modal{
+	z-index: 10000;
+}
+.modal-backdrop{
+	z-index: 9999;
+}
